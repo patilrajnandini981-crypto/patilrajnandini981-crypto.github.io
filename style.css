@@ -1,0 +1,176 @@
+/* GENERAL PAGE */
+
+body {
+    background-color: #FFF9F3;
+    color: #604C43;
+}
+
+
+/* NAVBAR */
+
+nav {
+    background-color: #D9A7A0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+nav h2 {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    color: #604C43;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #604C43;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #A8B5A0;
+}
+
+
+/* HERO */
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    color: #604C43;
+    text-align: center;
+}
+
+h1 + p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #604C43;
+}
+
+
+/* EXPLORE BUTTON */
+
+.explore-button {
+    display: inline-block;
+    background-color: #D9A7A0;
+    text-decoration: none;
+    color: #604C43;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #A8B5A0;
+}
+
+
+/* PRODUCT COLLECTION */
+
+#collection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* PRODUCT CARDS */
+
+.product-card {
+    width: 250px;
+    background-color: #FFF9F3;
+    border: 2px solid #D9A7A0;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(96, 76, 67, 0.15);
+}
+
+
+/* PRODUCT IMAGES */
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* PRODUCT TEXT */
+
+.product-card h3 {
+    color: #604C43;
+    font-size: 18px;
+}
+
+.product-card p {
+    color: #604C43;
+    font-size: 14px;
+}
+
+
+/* ABOUT */
+
+#about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #604C43;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #604C43;
+}
+
+
+/* CONTACT */
+
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #F3D9D5;
+}
+
+#contact h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #604C43;
+}
+
+#contact p {
+    color: #604C43;
+    font-size: 16px;
+}
+
+
+/* CONTACT BUTTON */
+
+.contact-button {
+    display: inline-block;
+    background-color: #604C43;
+    color: #FFF9F3;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
